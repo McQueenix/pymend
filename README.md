@@ -56,7 +56,7 @@ answers when `x` is `1` or `"yes"`, so changing it automatically could break cod
 ## Install
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/pymend.git
+git clone https://github.com/McQueenix/pymend.git
 cd pymend
 pip install .            # or: pip install -e ".[dev]" for development
 ```
@@ -113,7 +113,7 @@ pre-commit (`.pre-commit-config.yaml` in your project):
 
 ```yaml
 repos:
-  - repo: https://github.com/YOUR-USERNAME/pymend
+  - repo: https://github.com/McQueenix/pymend
     rev: v1.0.0
     hooks:
       - id: pymend
